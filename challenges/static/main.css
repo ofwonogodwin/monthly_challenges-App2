@@ -6,6 +6,9 @@ a{
     text-decoration: none;
     color: black;
 }
+a:hover{
+    color: rgb(39, 90, 161);
+}
 h1{
     color: rgb(5, 50, 8);
 }
