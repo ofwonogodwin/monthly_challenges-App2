@@ -1,0 +1,34 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        <ul>
+            <li>
+                <a href="{% url 'jan' %}">January</a>
+                <a href="{% url 'feb' %}">February</a>
+                <a href="{% url 'mar' %}">March</a>
+                <a href="{% url 'apr' %}">April</a>
+                <a href="{% url 'may' %}">May</a>
+                <a href="{% url 'jun' %}">June</a>
+                <a href="{% url 'jul' %}">July</a>
+                <a href="{% url 'aug' %}">August</a>
+                <a href="{% url 'sep' %}">September</a>
+                <a href="{% url 'oct' %}">October</a>
+                <a href="{% url 'nov' %}">November</a>
+                <a href="{% url 'dec' %}">December</a>
+            </li>
+        </ul>
+    </h1>
+</body>
+</html>
+
+{% block content %}
+    
+{% endblock content %}
+    
