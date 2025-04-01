@@ -8,3 +8,4 @@ As time passes, I will be able to improve this code to the best of its ability.
 This is simple Django code that tries to illustrate the simplest way to understand URLS and Function-Based views in Django.
 
 ### This readme will also be updated as time goes on. Thanks
+### Project flowing
