@@ -2,7 +2,7 @@
 FROM python:3.9-slim
 
 # Setting the environment variables to ensure that Python output is sent straight to the terminal (prevent buffering)
-ENV PYTHONUNBUFFERED 1
+ENV PYTHONUNBUFFERED = 1
 
 # Set the working directory in the container
 WORKDIR /app
@@ -10,8 +10,10 @@ WORKDIR /app
 # Copy the requirements.txt file to the working directory
 COPY requirements.txt .
 
+RUN python -m venv/myenv
+
 # Install the dependencies specified in requirements.txt
-# RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy the rest of your Django application to the container
 COPY . .
