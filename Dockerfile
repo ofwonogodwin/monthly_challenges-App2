@@ -11,7 +11,7 @@ WORKDIR /app
 COPY requirements.txt .
 
 # Install the dependencies specified in requirements.txt
-RUN pip install --no-cache-dir -r requirements.txt
+# RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy the rest of your Django application to the container
 COPY . .
