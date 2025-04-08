@@ -13,3 +13,5 @@ This is simple Django code that tries to illustrate the simplest way to understa
 
 ### This readme will also be updated as time goes on. Thanks
 ### Project flowing
+
+#### To be optimized
